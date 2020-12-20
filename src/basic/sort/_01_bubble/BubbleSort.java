@@ -5,10 +5,22 @@ import java.util.Random;
 
 public class BubbleSort {
 	
-	public static void bubbleSort(int[] arr) {
+	public static void bubbleSortAscending(int[] arr) {
 		for(int i = 0; i < arr.length; i++) {
 			for(int j = 0; j < arr.length - i - 1; j++) {
 				if(arr[j] > arr[j+1]) {
+					int temp = arr[j+1];
+					arr[j+1] = arr[j];
+					arr[j] = temp;
+				}
+			}
+		}
+	}
+	
+	public static void bubbleSortDescending(int[] arr) {
+		for(int i = 0; i < arr.length; i++) {
+			for(int j = 0; j < arr.length - i - 1; j++) {
+				if(arr[j] < arr[j+1]) {
 					int temp = arr[j+1];
 					arr[j+1] = arr[j];
 					arr[j] = temp;
@@ -27,8 +39,12 @@ public class BubbleSort {
 		}
 		System.out.println("BEFORE : " + Arrays.toString(arrList));
 		
-		bubbleSort(arrList);
+		bubbleSortAscending(arrList);
 		
-		System.out.println("AFTER : " + Arrays.toString(arrList));
+		System.out.println("ASC : " + Arrays.toString(arrList));
+		
+		bubbleSortDescending(arrList);
+		
+		System.out.println("DESC : " + Arrays.toString(arrList));
 	}
 }
