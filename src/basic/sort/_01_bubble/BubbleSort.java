@@ -5,6 +5,10 @@ import java.util.Random;
 
 public class BubbleSort {
 	
+	/**
+	 * 버블 정렬 오름차순
+	 * @param arr
+	 */
 	public static void bubbleSortAscending(int[] arr) {
 		for(int i = 0; i < arr.length; i++) {
 			for(int j = 0; j < arr.length - i - 1; j++) {
@@ -17,6 +21,10 @@ public class BubbleSort {
 		}
 	}
 	
+	/**
+	 * 버블 정렬 내림차순
+	 * @param arr
+	 */
 	public static void bubbleSortDescending(int[] arr) {
 		for(int i = 0; i < arr.length; i++) {
 			for(int j = 0; j < arr.length - i - 1; j++) {
