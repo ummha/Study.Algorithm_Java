@@ -6,7 +6,7 @@ import java.util.Random;
 public class SelectionSort {
 	
 	/**
-	 * 선택정렬 오름차순
+	 * 선택 정렬 오름차순
 	 * @param arr
 	 */
 	public static void selectionSortAscending(int[] arr) {
@@ -27,8 +27,8 @@ public class SelectionSort {
 	}
 	
 	/**
-	 * 선택정렬 내림차순
-	 * @param args
+	 * 선택 정렬 내림차순
+	 * @param arr
 	 */
 	public static void selectionSortDescending(int[] arr) {
 		int max = 0;
