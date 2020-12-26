@@ -6,7 +6,7 @@
 
 # 삽입 정렬 ( Insertion Sort )
 
-![선택정렬](../../../../imgs/insertion_sort_animation.gif)
+![삽입정렬](../../../../imgs/insertion_sort_animation.gif)
 
 > [이미지 출처 : Insertion Sort Animation *.wikimedia*]
 
@@ -25,7 +25,7 @@
 - 즉, 두 번째 자료는 첫 번째 자료, 세 번째 자료는 두 번째와 첫 번째 자료, 네 번째 자료는 세 번째, 두 번째, 첫 번째 자료와 비교한 후 자료가 삽입될 위치를 찾는다. 자료가 삽입될 위치를 찾았다면 그 위치에 자료를 삽입하기 위해 자료를 한 칸씩 뒤로 이동시킨다.
 - **처음 Key 값은 두 번째 자료부터 시작한다.**
 
-![선택정렬이미지](../../../../imgs/insertion_sort.png)
+![삽입정렬단계](../../../../imgs/insertion_sort.png)
 
 > [이미지 출처 : [gmlwjd9405.github.io](https://gmlwjd9405.github.io/2018/05/06/algorithm-insertion-sort.html)]
 

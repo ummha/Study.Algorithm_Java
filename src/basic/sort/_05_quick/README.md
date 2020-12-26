@@ -6,7 +6,7 @@
 
 # 정렬 ( Sort )
 
-![선택정렬](../../../../imgs/quick_sort_animation.gif)
+![퀵정렬](../../../../imgs/quick_sort_animation.gif)
 
 > [이미지 출처 : Quick Sort Animation *.wikipedia*]
 
@@ -39,7 +39,7 @@
   - **결합(Combine)**: 정렬된 부분 배열들을 하나의 배열에 합병한다.
   - 순환 호출이 한번 진행될 때마다 최소한 하나의 원소(피벗)는 최종적으로 위치가 정해지므로, 이 알고리즘은 반드시 끝난다는 것을 보장할 수 있다.
 
-![선택정렬이미지](../../../../imgs/quick_sort.png)
+![퀵정렬단계](../../../../imgs/quick_sort.png)
 
 > [이미지 출처 : [gmlwjd9405.github.io](https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html)]
 

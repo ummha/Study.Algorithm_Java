@@ -6,7 +6,7 @@
 
 # 셸 정렬 ( Shell Sort )
 
-![선택정렬](../../../../imgs/shell_sort_animation.gif)
+![셸정렬](../../../../imgs/shell_sort_animation.gif)
 
 > [이미지 출처 : Shell Sort Animation *.wikipedia*]
 
@@ -35,7 +35,7 @@
   - 간격을 절반으로 줄일 때 짝수가 나오면 +1을 해서 홀수로 만든다.
 - 간격 k가 1이 될 때까지 반복한다.
 
-![선택정렬이미지](../../../../imgs/shell_sort.png)
+![셸정렬단계](../../../../imgs/shell_sort.png)
 
 > [이미지 출처 : [gmlwjd9405.github.io](https://gmlwjd9405.github.io/2018/05/08/algorithm-shell-sort.html)]
 
