@@ -31,4 +31,4 @@
 
 ---
 
-[:arrow_up: **Top**](#)
+[:arrow_up_small: **Top**](#)
