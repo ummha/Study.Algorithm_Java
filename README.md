@@ -4,15 +4,15 @@
 > **2021년도 첫번째 목표 : 알고리즘 마스터하기**
 
 ## 📙 입문
-- 정렬
-  - 버블(Bubble Sort)
-  - 선택(Selection Sort)
-  - 삽입(Insertion Sort)
-  - 셸 (Shell Sort)
-  - 퀵 (Quick Sort)
-  - 힙 (Heap Sort)
-  - 병합 (Merge Sort)
-  - 기수 (Radix Sort)
+- [정렬](./src/basic/sort)
+  - [버블(Bubble Sort)](./src/basic/sort/_01_bubble)
+  - [선택(Selection Sort)]()
+  - [삽입(Insertion Sort)]()
+  - [셸 (Shell Sort)]()
+  - [퀵 (Quick Sort)]()
+  - [힙 (Heap Sort)]()
+  - [병합 (Merge Sort)]()
+  - [기수 (Radix Sort)]()
 
 ## 📗 초급
 - 완전 탐색
