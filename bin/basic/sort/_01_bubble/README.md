@@ -1,3 +1,7 @@
+:arrow_backward:[:arrow_backward:BACK](../)
+
+---
+
 # 버블 정렬 ( Bubble Sort )
 
 ![버블정렬단계](../../../../imgs/bubble_sort_phase.gif)
@@ -29,7 +33,14 @@
 
 일반적으로 자료의 교환 작업(SWAP)이 자료의 이동 작업(MOVE)보다 더 복잡하기 때문에 버블 정렬은 단순성에도 불구하고 **거의 쓰이지 않는다.**
 
+## JAVA Code
+- [BubbleSort.java](./BubbleSort.java)
 
 ## References
 - https://gmlwjd9405.github.io/2018/05/06/algorithm-bubble-sort.html
 - https://javaplant.tistory.com/16
+
+---
+[Top](#버블-정렬--bubble-sort-)
+<br>
+[Top](#)

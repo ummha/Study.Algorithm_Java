@@ -6,13 +6,13 @@
 ## 📙 입문
 - [정렬](./src/basic/sort)
   - [버블(Bubble Sort)](./src/basic/sort/_01_bubble)
-  - [선택(Selection Sort)]()
-  - [삽입(Insertion Sort)]()
-  - [셸 (Shell Sort)]()
-  - [퀵 (Quick Sort)]()
-  - [힙 (Heap Sort)]()
-  - [병합 (Merge Sort)]()
-  - [기수 (Radix Sort)]()
+  - [선택(Selection Sort)](./src/basic/sort/_02_selection)
+  - [삽입(Insertion Sort)](./src/basic/sort/_03_insertion)
+  - [셸 (Shell Sort)](./src/basic/sort/_04_shell)
+  - [퀵 (Quick Sort)](./src/basic/sort/_05_quick)
+  - [힙 (Heap Sort)](./src/basic/sort/_06_heap)
+  - [병합 (Merge Sort)](./src/basic/sort/_07_merge)
+  - [기수 (Radix Sort)](./src/basic/sort/_08_radix)
 
 ## 📗 초급
 - 완전 탐색
