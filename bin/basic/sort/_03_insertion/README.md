@@ -1,3 +1,9 @@
+[:file_folder: **Algorithm List**](https://github.com/dlalstj0213/Study.Algorithm_Java)
+
+[:arrow_backward: **BACK**](../)
+
+---
+
 # 삽입 정렬 ( Insertion Sort )
 
 ![선택정렬](../../../../imgs/insertion_sort_animation.gif)
@@ -43,3 +49,7 @@
 - https://marobiana.tistory.com/85
 - https://dpdpwl.tistory.com/18
 - https://yabmoons.tistory.com/250
+
+---
+
+[:arrow_up: **Top**](#)

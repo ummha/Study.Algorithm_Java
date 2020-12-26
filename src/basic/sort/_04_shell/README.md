@@ -1,3 +1,9 @@
+[:file_folder: **Algorithm List**](https://github.com/dlalstj0213/Study.Algorithm_Java)
+
+[:arrow_backward: **BACK**](../)
+
+---
+
 # 셸 정렬 ( Shell Sort )
 
 ![선택정렬](../../../../imgs/shell_sort_animation.gif)
@@ -47,3 +53,7 @@
 ## References
 - https://gmlwjd9405.github.io/2018/05/08/algorithm-shell-sort.html
 - https://yabmoons.tistory.com/250
+
+---
+
+[:arrow_up: **Top**](#)

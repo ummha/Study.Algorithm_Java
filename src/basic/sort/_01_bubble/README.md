@@ -1,4 +1,6 @@
-:arrow_backward:[:arrow_backward:BACK](../)
+[:file_folder: **Algorithm List**](https://github.com/dlalstj0213/Study.Algorithm_Java)
+
+[:arrow_backward: **BACK**](../)
 
 ---
 
@@ -41,6 +43,5 @@
 - https://javaplant.tistory.com/16
 
 ---
-[Top](#버블-정렬--bubble-sort-)
-<br>
-[Top](#)
+
+[:arrow_up: **Top**](#)
