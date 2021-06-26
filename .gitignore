@@ -1,0 +1,7 @@
+.idea/
+.settings/
+.vscode/
+bin/
+.project
+.classpath
+Study.Algorithm_Java.iml
