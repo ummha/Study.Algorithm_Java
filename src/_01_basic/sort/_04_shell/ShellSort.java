@@ -1,4 +1,4 @@
-package basic.sort._04_shell;
+package _01_basic.sort._04_shell;
 
 import java.util.Arrays;
 import java.util.Random;

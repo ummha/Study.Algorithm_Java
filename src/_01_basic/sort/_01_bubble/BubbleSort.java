@@ -1,4 +1,4 @@
-package basic.sort._01_bubble;
+package _01_basic.sort._01_bubble;
 
 import java.util.Arrays;
 import java.util.Random;

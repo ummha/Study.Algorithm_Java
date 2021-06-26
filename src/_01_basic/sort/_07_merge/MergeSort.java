@@ -1,4 +1,4 @@
-package basic.sort._07_merge;
+package _01_basic.sort._07_merge;
 
 import java.util.Arrays;
 import java.util.Random;

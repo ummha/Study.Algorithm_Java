@@ -1,4 +1,4 @@
-package basic.sort._02_selection;
+package _01_basic.sort._02_selection;
 
 import java.util.Arrays;
 import java.util.Random;
