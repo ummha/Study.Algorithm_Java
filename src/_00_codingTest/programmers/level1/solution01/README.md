@@ -1,3 +1,9 @@
+[:file_folder: **Algorithm List**](https://github.com/dlalstj0213/Study.Algorithm_Java)
+
+[:arrow_backward: **BACK**](../)
+
+---
+
 # 완주하지 못한 선수
 
 수많은 마라톤 선수들이 마라톤에 참여하였습니다. 단 한 명의 선수를 제외하고는 모든 선수가 마라톤을 완주하였습니다.
@@ -32,3 +38,13 @@
 **예제 #3**
 
 "mislav"는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 한 명밖에 없기 때문에 한명은 완주하지 못했습니다.
+
+## Solutions
+
+- [Solution1.java](./Solution1.java)
+- [Solution2.java](./Solution2.java)
+- [Solution3.java](./Solution3.java)
+
+---
+
+[:arrow_up_small: **Top**](#)

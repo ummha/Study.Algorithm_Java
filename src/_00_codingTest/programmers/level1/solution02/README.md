@@ -1,3 +1,9 @@
+[:file_folder: **Algorithm List**](https://github.com/dlalstj0213/Study.Algorithm_Java)
+
+[:arrow_backward: **BACK**](../)
+
+---
+
 # [카카오 인턴] 키패드 누르기
 
 스마트폰 전화 키패드의 각 칸에 다음과 같이 숫자들이 적혀 있습니다.
@@ -62,3 +68,11 @@
 **입출력 예 #3**
 
 오른손잡이가 [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]를 순서대로 누르면 사용한 손은 `"LLRLLRLLRL"`이 됩니다.
+
+## Solutions
+
+- [Solution1.java](./Solution1.java)
+
+---
+
+[:arrow_up_small: **Top**](#)
