@@ -4,15 +4,15 @@
 > **2021년도 첫번째 목표 : 알고리즘 마스터하기**
 
 ## 📙 입문
-- [정렬](./src/basic/sort)
-  - [버블(Bubble Sort)](./src/basic/sort/_01_bubble)
-  - [선택(Selection Sort)](./src/basic/sort/_02_selection)
-  - [삽입(Insertion Sort)](./src/basic/sort/_03_insertion)
-  - [셸 (Shell Sort)](./src/basic/sort/_04_shell)
-  - [퀵 (Quick Sort)](./src/basic/sort/_05_quick)
-  - [힙 (Heap Sort)](./src/basic/sort/_06_heap)
-  - [병합 (Merge Sort)](./src/basic/sort/_07_merge)
-  - [기수 (Radix Sort)](./src/basic/sort/_08_radix)
+- [정렬](./src/_01_basic/sort)
+  - [버블(Bubble Sort)](./src/_01_basic/sort/_01_bubble)
+  - [선택(Selection Sort)](./src/_01_basic/sort/_02_selection)
+  - [삽입(Insertion Sort)](./src/_01_basic/sort/_03_insertion)
+  - [셸 (Shell Sort)](./src/_01_basic/sort/_04_shell)
+  - [퀵 (Quick Sort)](./src/_01_basic/sort/_05_quick)
+  - [힙 (Heap Sort)](./src/_01_basic/sort/_06_heap)
+  - [병합 (Merge Sort)](./src/_01_basic/sort/_07_merge)
+  - [기수 (Radix Sort)](./src/_01_basic/sort/_08_radix)
 
 ## 📗 초급
 - 완전 탐색
