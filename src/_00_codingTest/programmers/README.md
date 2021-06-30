@@ -20,6 +20,7 @@
 2. [**키패드 누르기**](./level1/solution02)_2020 카카오 인턴십
 3. [**로또의 최고 순위와 최저 순위**](./level1/solution03)_2021 Dev-Matching: 웹 백엔드 개발자(상반기)
 4. [**폰켓몬**](./level1/solution04)_찾아라 프로그래밍 마에스터
+5. [**신규 아이디 추천**](./level1/solution05)_2021 KAKAO BLIND RECRUITMENT
 
 ## Level 2
 
