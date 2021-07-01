@@ -21,8 +21,8 @@
 3. [**로또의 최고 순위와 최저 순위**](./level1/solution03)_2021 Dev-Matching: 웹 백엔드 개발자(상반기)
 4. [**폰켓몬**](./level1/solution04)_찾아라 프로그래밍 마에스터
 5. [**신규 아이디 추천**](./level1/solution05)_2021 KAKAO BLIND RECRUITMENT
-6. [K번째수](./level1/solution06)_정렬
-7. [**소수 만들기**]()_Summer/Winter Coding(~2018)
+6. [**K번째수**](./level1/solution06)_정렬
+7. [**소수 만들기**](./level1/solution07)_Summer/Winter Coding(~2018)
 
 ## Level 2
 
