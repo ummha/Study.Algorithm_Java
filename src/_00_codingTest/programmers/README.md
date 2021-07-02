@@ -23,6 +23,7 @@
 5. [**신규 아이디 추천**](./level1/solution05)_2021 KAKAO BLIND RECRUITMENT
 6. [**K번째수**](./level1/solution06)_정렬
 7. [**소수 만들기**](./level1/solution07)_Summer/Winter Coding(~2018)
+8. [**모의고사**](./level1/solution08)_완전탐색
 
 ## Level 2
 
