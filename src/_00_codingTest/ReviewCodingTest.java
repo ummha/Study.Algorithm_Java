@@ -4,29 +4,35 @@ import java.util.Locale;
 
 public class ReviewCodingTest {
 
-	public String solution(String new_id){
-		String answer = "";
-		answer = new_id.toLowerCase();	// 1단계
-		answer = answer.replaceAll("[^-_.a-z0-9]", "");	// 2단계
-		answer = answer.replaceAll("\\.{2,}", ".");	// 3단계
-		answer = answer.replaceAll("^[.]|[.]$","");	// 4단계
-		if(answer.length() == 0) answer += "a";	// 5단계
-		if(answer.length() >= 16) {
-			answer = answer.substring(0, 15);	// 6단계
-			answer = answer.lastIndexOf(".") == answer.length()-1 ? answer.replaceAll("^[.]|[.]$","") : answer;
+	public int solution(int[] nums){
+		int answer = 0;
+		for(int i=0; i<nums.length-2; i++){
+			for(int j=i+1; j<nums.length-1; j++){
+				for(int k=j+1; k< nums.length; k++){
+					if(isPrime(nums[i]+nums[j]+nums[k]))
+						answer++;
+				}
+			}
 		}
-		if(answer.length() <= 2) {
-			String addStr = answer.substring(answer.length()-1, answer.length());
-			while(answer.length() < 3)
-				answer += addStr;
-		}
-
 		return answer;
 	}
 
+	private boolean isPrime(int sum){
+		if(sum < 2) return false;
+		if(sum == 2) return true;
+		for(int i=2; i<sum; i++){
+			if(sum % i == 0) return false;
+		}
+		return true;
+	};
+
 	public static void main(String[] args) {
 		ReviewCodingTest c = new ReviewCodingTest();
-		String result = c.solution("abcdefghijklmn.p");
+		int[] nums1 = {1,2,3,4};
+		int[] nums2 = {1,2,7,6,4};
+		int result = c.solution(nums1);
+		System.out.println(result);
+		result = c.solution(nums2);
 		System.out.println(result);
 	}
 }
