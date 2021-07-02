@@ -1,38 +1,54 @@
 package _00_codingTest;
 
+import java.util.Arrays;
 import java.util.Locale;
 
 public class ReviewCodingTest {
 
-	public int solution(int[] nums){
-		int answer = 0;
-		for(int i=0; i<nums.length-2; i++){
-			for(int j=i+1; j<nums.length-1; j++){
-				for(int k=j+1; k< nums.length; k++){
-					if(isPrime(nums[i]+nums[j]+nums[k]))
-						answer++;
-				}
+	public int[] solution(int[] array, int[][] commands){
+		int[] answer = new int[commands.length];
+
+		for(int idx=0; idx<commands.length; idx++){
+			int i = commands[idx][0];
+			int j = commands[idx][1];
+			int k = commands[idx][2];
+
+			if(i==j) {
+				answer[idx] = array[j-1];
+				continue;
 			}
+
+			int x=0;
+			int[] newArr = new int[j-i+1];
+			for(int tmp=i-1; tmp<j; tmp++){
+				newArr[x++] = array[tmp];
+			}
+
+			sort(newArr);
+
+			answer[idx] = newArr[k-1];
 		}
+
 		return answer;
 	}
 
-	private boolean isPrime(int sum){
-		if(sum < 2) return false;
-		if(sum == 2) return true;
-		for(int i=2; i<sum; i++){
-			if(sum % i == 0) return false;
+	private void sort(int[] arr){
+		for(int i=0; i<arr.length; i++){
+			for(int j=0; j<arr.length-i-1; j++){
+				if(arr[j] > arr[j+1]){
+					int temp = arr[j];
+					arr[j] = arr[j+1];
+					arr[j+1] = temp;
+				}
+			}
 		}
-		return true;
-	};
+	}
 
 	public static void main(String[] args) {
 		ReviewCodingTest c = new ReviewCodingTest();
-		int[] nums1 = {1,2,3,4};
-		int[] nums2 = {1,2,7,6,4};
-		int result = c.solution(nums1);
-		System.out.println(result);
-		result = c.solution(nums2);
-		System.out.println(result);
+		int[] array = {1, 5, 2, 6, 3, 7, 4};
+		int[][] commands = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
+		int[] result = c.solution(array, commands);
+		System.out.println(Arrays.toString(result));
 	}
 }
