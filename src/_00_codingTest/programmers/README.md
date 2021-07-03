@@ -25,6 +25,7 @@
 7. [**소수 만들기**](./level1/solution07)_Summer/Winter Coding(~2018)
 8. [**모의고사**](./level1/solution08)_완전탐색
 9. [**내적**](./level1/solution09)_월간 코드 챌린지 시즌1
+10. [**체육복**](./level1/solution10)_탐욕법(Greedy)
 
 ## Level 2
 
