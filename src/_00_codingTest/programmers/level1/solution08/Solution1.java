@@ -33,12 +33,11 @@ public class Solution1 {
     }
 
     public static void main(String[] args) {
-        Solution1 solution1 = new Solution1();
         int[] answers1 = {1,2,3,4,5};
-        int[] result = solution1.solution(answers1);
+        int[] result = solution(answers1);
         System.out.println(Arrays.toString(result));
         int[] answers2 = {1,3,2,4,2};
-        result = solution1.solution(answers2);
+        result = solution(answers2);
         System.out.println(Arrays.toString(result));
     }
 }
