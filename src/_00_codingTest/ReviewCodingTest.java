@@ -1,54 +1,45 @@
 package _00_codingTest;
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Locale;
+import java.util.List;
 
 public class ReviewCodingTest {
 
-	public int[] solution(int[] array, int[][] commands){
-		int[] answer = new int[commands.length];
+	public static int[] solution(int[] answers) {
+		int[][] patterns = {
+				{1, 2, 3, 4, 5},
+				{2, 1, 2, 3, 2, 4, 2, 5},
+				{3, 3, 1, 1, 2, 2, 4, 4, 5, 5}
+		};
 
-		for(int idx=0; idx<commands.length; idx++){
-			int i = commands[idx][0];
-			int j = commands[idx][1];
-			int k = commands[idx][2];
-
-			if(i==j) {
-				answer[idx] = array[j-1];
-				continue;
+		int[] hit = new int[patterns.length];
+		for(int i=0; i<hit.length; i++){
+			for(int j=0; j<answers.length; j++){
+				if(patterns[i][j % patterns[i].length] == answers[j]) hit[i]++;
 			}
-
-			int x=0;
-			int[] newArr = new int[j-i+1];
-			for(int tmp=i-1; tmp<j; tmp++){
-				newArr[x++] = array[tmp];
-			}
-
-			sort(newArr);
-
-			answer[idx] = newArr[k-1];
 		}
 
+		int max = Math.max(hit[0], Math.max(hit[1], hit[2]));
+		List<Integer> list = new ArrayList<>();
+
+		for(int i=0; i<hit.length; i++){
+			if(max == hit[i]) list.add(i+1);
+		}
+
+		int[] answer = new int[list.size()];
+		int cnt = 0;
+		for(int num : list)
+			answer[cnt++] = num;
 		return answer;
 	}
 
-	private void sort(int[] arr){
-		for(int i=0; i<arr.length; i++){
-			for(int j=0; j<arr.length-i-1; j++){
-				if(arr[j] > arr[j+1]){
-					int temp = arr[j];
-					arr[j] = arr[j+1];
-					arr[j+1] = temp;
-				}
-			}
-		}
-	}
-
 	public static void main(String[] args) {
-		ReviewCodingTest c = new ReviewCodingTest();
-		int[] array = {1, 5, 2, 6, 3, 7, 4};
-		int[][] commands = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
-		int[] result = c.solution(array, commands);
+		int[] answers1 = {1,2,3,4,5};
+		int[] result = solution(answers1);
+		System.out.println(Arrays.toString(result));
+		int[] answers2 = {1,3,2,4,2};
+		result = solution(answers2);
 		System.out.println(Arrays.toString(result));
 	}
 }
