@@ -1,45 +1,35 @@
 package _00_codingTest;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class ReviewCodingTest {
 
-	public static int[] solution(int[] answers) {
-		int[][] patterns = {
-				{1, 2, 3, 4, 5},
-				{2, 1, 2, 3, 2, 4, 2, 5},
-				{3, 3, 1, 1, 2, 2, 4, 4, 5, 5}
-		};
+	public static int solution(int n, int[] lost, int[] reserve) {
+		int[] student = new int[n];
+		int answer = n;
 
-		int[] hit = new int[patterns.length];
-		for(int i=0; i<hit.length; i++){
-			for(int j=0; j<answers.length; j++){
-				if(patterns[i][j % patterns[i].length] == answers[j]) hit[i]++;
+		for(int i : lost)
+			student[i -1]--;
+		for(int i : reserve)
+			student[i - 1]++;
+
+		for(int i=0; i<student.length; i++){
+			if(student[i] == -1){
+				if(i-1 >= 0 && student[i-1]==1){
+					student[i]++;
+					student[i-1]--;
+				}else if(i+1 < student.length && student[i+1]==1){
+					student[i]++;
+					student[i]--;
+				}else{
+					answer--;
+				}
 			}
 		}
-
-		int max = Math.max(hit[0], Math.max(hit[1], hit[2]));
-		List<Integer> list = new ArrayList<>();
-
-		for(int i=0; i<hit.length; i++){
-			if(max == hit[i]) list.add(i+1);
-		}
-
-		int[] answer = new int[list.size()];
-		int cnt = 0;
-		for(int num : list)
-			answer[cnt++] = num;
 		return answer;
 	}
 
 	public static void main(String[] args) {
-		int[] answers1 = {1,2,3,4,5};
-		int[] result = solution(answers1);
-		System.out.println(Arrays.toString(result));
-		int[] answers2 = {1,3,2,4,2};
-		result = solution(answers2);
-		System.out.println(Arrays.toString(result));
+		int[] lost = {3, 4};
+		int[] reserve = {1, 3, 5};
+		System.out.println(solution(5, lost, reserve));
 	}
 }
