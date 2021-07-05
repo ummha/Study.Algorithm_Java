@@ -29,6 +29,7 @@
 11. [**크레인 인형뽑기 게임**](./level1/solution11)_2019 카카오 개발자 겨울 인턴십
 12. [**음양 더하기**](./level1/solution12)_월간 코드 챌린지 시즌2
 13. [**실패율**](./level1/solution13)_2019 KAKAO BLIND RECRUITMENT
+14. [**약수의 개수와 덧셈**](./level1/solution14)_월간 코드 챌린지 시즌2
 
 ## Level 2
 
