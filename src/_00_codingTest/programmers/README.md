@@ -31,6 +31,11 @@
 13. [**실패율**](./level1/solution13)_2019 KAKAO BLIND RECRUITMENT
 14. [**약수의 개수와 덧셈**](./level1/solution14)_월간 코드 챌린지 시즌2
 15. [**3진법 뒤집기**](./level1/solution15)_월간 코드 챌린지 시즌1
+16. [**예산**](./level1/solution16)_Summer/Winter Coding(~2018)
+17. [**두 개 뽑아서 더하기**](./level1/solution17)_월간 코드 챌린지 시즌1
+18. [**2016년**](./level1/solution18)_연습문제
+19. [**가운데 글자 가져오기**](./level1/solution19)_연습문제
+20. [**[1차] 비밀지도**](./level1/solution20)_2018 KAKAO BLIND RECRUITMENT
 
 ## Level 2
 
