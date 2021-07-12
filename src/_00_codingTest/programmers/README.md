@@ -36,6 +36,8 @@
 18. [**2016년**](./level1/solution18)_연습문제
 19. [**가운데 글자 가져오기**](./level1/solution19)_연습문제
 20. [**[1차] 비밀지도**](./level1/solution20)_2018 KAKAO BLIND RECRUITMENT
+21. [**숫자 문자열과 영단어**](./level1/solution21)_2021 카카오 채용연계형 인턴십
+22. [**[1차] 다트 게임**](./level1/solution22)_2018 KAKAO BLIND RECRUITMENT
 
 ## Level 2
 

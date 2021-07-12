@@ -6,6 +6,8 @@
 
 # 숫자 문자열과 영단어
 
+> 2021 카카오 채용연계형 인턴십
+
 ### 문제 설명
 
 ![](https://grepp-programmers.s3.ap-northeast-2.amazonaws.com/files/production/d31cb063-4025-4412-8cbc-6ac6909cf93e/img1.png)
