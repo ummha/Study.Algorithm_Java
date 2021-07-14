@@ -40,6 +40,8 @@
 22. [**[1차] 다트 게임**](./level1/solution22)_2018 KAKAO BLIND RECRUITMENT
 23. [**같은 숫자는 싫어**](./level1/solution23)_연습문제
 24. [**나누어 떨어지는 숫자 배열**](./level1/solution24)_연습문제
+25. [**두 정수 사이의 합**](./level1/solution25)_연습문제
+26. [**문자열 내 마음대로 정렬하기**](./level1/solution26)_연습문제
 
 ## Level 2
 
