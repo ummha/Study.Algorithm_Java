@@ -25,8 +25,9 @@ s는 영문 대소문자로만 구성되어 있으며, 대문자는 소문자보
 
 ## Solutions
 
-[Solution1.java](./)
-[Solution2.java]()
+- [Solution1.java](./Solution1.java)
+- [Solution2.java](./Solution2.java)
+- [Solution3.java](./Solution3.java)
 
 ---
 
