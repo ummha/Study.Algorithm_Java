@@ -24,6 +24,8 @@ String형 배열 seoul의 element중 "Kim"의 위치 x를 찾아, "김서방은 
 
 ## Solutions
 
+- [Solution1.java](./Solution1.java)
+
 ---
 
 [:arrow_up_small: **Top**](#)
