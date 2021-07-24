@@ -60,6 +60,8 @@
 42. [**짝수와 홀수**](./level1/solution42)_연습문제
 43. [**최대공약수와 최소공배수**](./level1/solution43)_연습문제
 44. [**콜라츠 추측**](./level1/solution44)_연습문제
+45. [**평균 구하기**](./level1/solution45)_연습문제
+46. [**힛샤드 수**](./level1/solution46)_연습문제
 
 
 ## Level 2
