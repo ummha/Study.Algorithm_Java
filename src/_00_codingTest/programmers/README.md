@@ -62,6 +62,8 @@
 44. [**콜라츠 추측**](./level1/solution44)_연습문제
 45. [**평균 구하기**](./level1/solution45)_연습문제
 46. [**힛샤드 수**](./level1/solution46)_연습문제
+47. [**핸드폰 번호 가리기**](./level1/solution47)_연습문제
+48. [**행렬의 덧셈**](./level1/solution48)_연습문제
 
 
 ## Level 2
