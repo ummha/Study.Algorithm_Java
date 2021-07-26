@@ -64,6 +64,8 @@
 46. [**힛샤드 수**](./level1/solution46)_연습문제
 47. [**핸드폰 번호 가리기**](./level1/solution47)_연습문제
 48. [**행렬의 덧셈**](./level1/solution48)_연습문제
+49. [**x만큼 간격이 있는 n개의 숫자**](./level1/solution49)_연습문제
+50. [**직사각형 별찍기**](./level1/solution50)_연습문제
 
 
 ## Level 2
