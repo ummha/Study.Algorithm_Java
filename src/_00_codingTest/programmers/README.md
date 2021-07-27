@@ -67,8 +67,10 @@
 49. [**x만큼 간격이 있는 n개의 숫자**](./level1/solution49)_연습문제
 50. [**직사각형 별찍기**](./level1/solution50)_연습문제
 
-
 ## Level 2
+
+1. [**문자열 압축**](./level2/solution01)_2020 KAKAO BLIND RECRUITMENT
+2. [**124 나라의 숫자**](./level2/solution02)_연습문제
 
 ## Level 3
 

@@ -58,7 +58,8 @@
 
 ## Solutions
 
-- []()
+- [Solution1.java](./Solution1.java)
+- [Solution2.java](./Solution2.java)
 
 ---
 
