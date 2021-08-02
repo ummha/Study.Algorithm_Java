@@ -74,6 +74,7 @@
 3. [**단체사진 찍기**](./level2/solution03)_2017 카카오코드 본선
 4. [**멀쩡한 사각형**](./level2/solution04)_Summer/Winter Coding(2019)
 5. [**짝지어 제거하기**](./level2/solution05)_2017 팁스타운
+6. [**더 맵게**](./level2/solution06)_힙(Heap)
 
 ## Level 3
 
