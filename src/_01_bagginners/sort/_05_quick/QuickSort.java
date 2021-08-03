@@ -1,4 +1,4 @@
-package _01_basic.sort._05_quick;
+package _01_bagginners.sort._05_quick;
 
 import java.util.Arrays;
 import java.util.Random;
