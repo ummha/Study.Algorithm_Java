@@ -75,6 +75,7 @@
 4. [**멀쩡한 사각형**](./level2/solution04)_Summer/Winter Coding(2019)
 5. [**짝지어 제거하기**](./level2/solution05)_2017 팁스타운
 6. [**더 맵게**](./level2/solution06)_힙(Heap)
+7. [**타겟 넘버**](./level2/solution07)_깊이/너비 우선 탐색(DFS/BFS)
 
 ## Level 3
 
