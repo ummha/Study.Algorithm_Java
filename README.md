@@ -15,7 +15,7 @@
   - [기수 (Radix Sort)](./src/_01_basic/sort/_08_radix)
 
 ## 📗 초급
-- 완전 탐색
+- 완전 탐색 (Exhaustive Search)
 - DP 초급
 - 큐, 스택
 - DFS
@@ -57,3 +57,5 @@
 ## 📒 코딩테스트
 - [Programmers](./src/_00_codingTest/programmers)
 - BAEKJOON
+- 코드포스
+- 삼성SW역량테스트
