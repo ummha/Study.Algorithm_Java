@@ -56,6 +56,6 @@
 
 ## 📒 코딩테스트
 - [Programmers](./src/_00_codingTest/programmers)
-- BAEKJOON
+- [BAEKJOON](./src/_00_codingTest/backjoon)
 - 코드포스
 - 삼성SW역량테스트
