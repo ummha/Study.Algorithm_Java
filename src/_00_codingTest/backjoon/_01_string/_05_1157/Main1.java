@@ -1,4 +1,4 @@
-package _00_codingTest.backjoon._01_string._05_study_word_1157;
+package _00_codingTest.backjoon._01_string._05_1157;
 
 import java.io.BufferedReader;
 import java.io.IOException;

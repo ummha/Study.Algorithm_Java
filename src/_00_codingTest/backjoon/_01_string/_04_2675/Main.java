@@ -1,4 +1,4 @@
-package _00_codingTest.backjoon._01_string._04_string_repeat_2675;
+package _00_codingTest.backjoon._01_string._04_2675;
 
 import java.io.BufferedReader;
 import java.io.IOException;

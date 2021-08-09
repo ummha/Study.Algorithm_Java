@@ -1,4 +1,4 @@
-package _00_codingTest.backjoon._01_string._03_findAlph_10809;
+package _00_codingTest.backjoon._01_string._03_10809;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

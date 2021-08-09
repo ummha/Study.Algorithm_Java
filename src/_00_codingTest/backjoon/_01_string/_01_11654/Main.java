@@ -1,4 +1,4 @@
-package _00_codingTest.backjoon._01_string._01_asciiCode_11654;
+package _00_codingTest.backjoon._01_string._01_11654;
 
 import java.io.BufferedReader;
 import java.io.IOException;

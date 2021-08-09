@@ -1,4 +1,4 @@
-package _00_codingTest.backjoon._01_string._05_study_word_1157;
+package _00_codingTest.backjoon._01_string._05_1157;
 
 public class Main2 {
     // 가장 빠른 효율성을 도출한 코드

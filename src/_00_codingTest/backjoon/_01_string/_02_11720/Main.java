@@ -1,4 +1,4 @@
-package _00_codingTest.backjoon._01_string._02_sum_11720;
+package _00_codingTest.backjoon._01_string._02_11720;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
